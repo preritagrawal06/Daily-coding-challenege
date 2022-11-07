@@ -1,1 +1,1 @@
-Question Link: https://www.hackerrank.com/challenges/one-month-preparation-kit-lonely-integer/problem
+Question Link: https://www.hackerrank.com/challenges/diagonal-difference/problem
