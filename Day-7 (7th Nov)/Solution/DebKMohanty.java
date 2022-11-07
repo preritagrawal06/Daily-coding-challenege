@@ -1,14 +1,19 @@
+
 import java.util.Scanner;
 
-public class DebKMohanty {
+
+public class DebKMohantyPangram {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
-        if(str.matches("[a-bA-z ]*")){
-            System.out.println("Pangram");
+        str = str.toLowerCase();
+        for (char a = 'a';a<='z';a++){
+            if(str.indexOf(a) < 0){
+                System.out.println("Not Pangram");
+                System.exit(0);
+            }
         }
-        else{
-            System.out.println("No Pangram");
-        }
+        System.out.println("Pangram");
+
     }
 }
