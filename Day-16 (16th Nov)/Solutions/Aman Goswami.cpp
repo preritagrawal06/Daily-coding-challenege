@@ -40,11 +40,11 @@ int formingMagicSquare(vector<vector<int>> s) {
 
         }
     }
-    int min =ans[0];
+    int fin =ans[0];
     for(int i=0;i<8;i++)
-        if(ans[i]<min)
-            min = ans[i];
-    return min;
+        if(ans[i]<fin)
+            fin = ans[i];
+    return fin;
 }
 
 int main()
